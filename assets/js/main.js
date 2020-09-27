@@ -166,8 +166,18 @@
   });
 
   $(".submit").on('click', function(e) {
+    if ($('#name').val() === '') {
+      return
+    } else if ($('#email').val() === '') {
+      return
+    } else if ($('#subject').val() === '') {
+      return
+    } else if ($('#message').val() === '') {
+      return
+    } else {
     e.preventDefault;
     $('.sent-message').fadeIn();
+    }
   });
 
   // Portfolio details carousel
