@@ -1,9 +1,4 @@
-/**
-* Template Name: iPortfolio - v1.4.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -168,6 +163,11 @@
         items: 3
       }
     }
+  });
+
+  $(".submit").on('click', function(e) {
+    e.preventDefault;
+    $('.sent-message').fadeIn();
   });
 
   // Portfolio details carousel
