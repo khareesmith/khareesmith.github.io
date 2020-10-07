@@ -11,6 +11,7 @@
 body {
   font-family: "Jost", sans-serif;
   color: #272829;
+  overflow: hidden scroll;
 }
 
 a {
@@ -227,17 +228,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/IMG_1274.JPG") center;
   background-size: cover;
+  overflow: hidden;
 }
 
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
-  bottom: -1em;
+  bottom: 0;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
+  overflow: hidden;
 }
 
 #hero .hero-container {
