@@ -57,11 +57,11 @@
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+          <li><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li class="active"><a href="index.html#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <li><a href="index.html#contact"><i class="bx bx-envelope"></i> Contact</a></li>
         </ul>
       </nav>
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -72,47 +72,74 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>Techip Details</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li>Techip</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+
+        <div class="portfolio-details-container">
+
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="assets/img/portfolio/portfolio-techip-wide.png" class="img-fluid" alt="Techip logo">
+            <img src="assets/img/portfolio/techchip-details-about.png" class="img-fluid" alt="Techip About page">
+            <img src="assets/img/portfolio/techchip-details-shop.png" class="img-fluid" alt="Techip Shop page">
+            <img src="assets/img/portfolio/techchip-details-support.png" class="img-fluid" alt="Techip Support page">
+          </div>
+
+          <div class="portfolio-info">
+            <h3>Techip Website</h3>
+            <ul>
+              <li><strong>Category</strong>: Web design</li>
+              <li><strong>Client</strong>: TechBridge</li>
+              <li><strong>Project Date</strong>: July 18 2020</li>
+              <li><strong>Project URL</strong>: <a href="https://khareesmith.github.io/Techip-Website-1/">Techip Link</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="portfolio-description">
+          <h2>Techip</h2>
+          <p>
+            Techip was envisioned as a company that specialized in the sale of various tech products as well as repair for computers and mobile devices. During the program with TechBridge Inc., we were tasked with creating a web application that would speak to our learning with front-end technologies.
+          </p>
+          <p>Skills used:</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Bootstrap</li>
+            <li>Git</li>
+          </ul>
+        </div>
+
       </div>
     </section>
+    <!-- End Portfolio Details Section -->
 
-  </main><!-- End #main -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+  </footer>
+  <!-- End  Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="index.html#portfolio" class="back-to-portfolio"><i class="icofont-simple-left"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
