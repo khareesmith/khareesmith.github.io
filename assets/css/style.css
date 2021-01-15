@@ -8,10 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  overflow: hidden scroll;
+}
+
 body {
   font-family: "Jost", sans-serif;
   color: #272829;
-  overflow: hidden scroll;
 }
 
 a {
@@ -93,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
+  overflow: hidden;
 }
 
 #header .profile h1 {
@@ -226,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/IMG_1274.JPG") center;
+  background: url("../img/IMG_1626.JPG") center;
   background-size: cover;
   overflow: hidden;
 }
