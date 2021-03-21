@@ -15,6 +15,7 @@ html {
 body {
   font-family: "Jost", sans-serif;
   color: #272829;
+  overflow-x: hidden;
 }
 
 a {
@@ -277,6 +278,73 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   border-bottom: 1px solid #149ddd;
 }
+
+#Layer_1 {
+  overflow: visible;
+}
+
+@keyframes K-anim {
+  from {stroke-dashoffset: -785px;}
+  to {stroke-dashoffset: 0px; fill: #fff;}
+}
+@keyframes H-anim {
+  from {stroke-dashoffset: -225px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes A-anim {
+  from {stroke-dashoffset: -188px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes R-anim {
+  from {stroke-dashoffset: -147px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes E-anim {
+  from {stroke-dashoffset: -153px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes E2-anim {
+  from {stroke-dashoffset: -158px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes S-anim {
+  from {stroke-dashoffset: -600px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes M-anim {
+  from {stroke-dashoffset: -200px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes I-anim {
+  from {stroke-dashoffset: -120px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes T-anim {
+  from {stroke-dashoffset: -320px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+@keyframes H2-anim {
+  from {stroke-dashoffset: -220px;}
+  to {stroke-dashoffset: 0px; fill:#fff;}
+}
+
+#K, #H, #A, #R, #E, #E2, #S, #M, #I, #T, #H2 {
+  stroke: #ffffff;
+  stroke-width: .5px;
+  fill: transparent;
+}
+
+#K {stroke-dasharray: 785px; stroke-dashoffset: -785px; animation: K-anim 6.2s linear 0s forwards;}
+#H { stroke-dasharray: 225px; stroke-dashoffset: -225px; animation: H-anim 1.2s linear 1.2s forwards;}
+#A { stroke-dasharray: 188px; stroke-dashoffset: -188px; animation: A-anim 1.2s linear 2.4s forwards;}
+#R { stroke-dasharray: 147px; stroke-dashoffset: -147px; animation: R-anim 1.2s linear 3.6s forwards;}
+#E { stroke-dasharray: 153px; stroke-dashoffset: -153px; animation: E-anim 1.2s linear 4.8s forwards;}
+#E2 { stroke-dasharray: 158px; stroke-dashoffset: -158px; animation: E2-anim 1.2s linear 6s forwards;}
+#S { stroke-dasharray: 600px; stroke-dashoffset: -600px; animation: S-anim 5s linear 7.7s forwards;}
+#M { stroke-dasharray: 200px; stroke-dashoffset: -200px; animation: M-anim 1.2s linear 8.9s forwards; }
+#I { stroke-dasharray: 120px; stroke-dashoffset: -120px;animation: I-anim 1.2s linear 10.1s forwards;}
+#T { stroke-dasharray: 320px; stroke-dashoffset: -320px;animation: T-anim 1.2s linear 11.3s forwards;}
+#H2 { stroke-dasharray: 220px; stroke-dashoffset: -220px;animation: H2-anim 1.2s linear 12.5s forwards;}
 
 @media (min-width: 1024px) {
   #hero {
