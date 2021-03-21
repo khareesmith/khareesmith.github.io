@@ -15,6 +15,14 @@
     });
   }
 
+  // Random image
+  $(document).ready(function(){
+    var imgarray = ["File_003.jpeg","File_004.jpeg","File_005.jpeg","File_006.jpeg"]
+    var randsel = (Math.floor(Math.random() * imgarray.length))
+    var actimg = imgarray[randsel]
+    $("#randimg").attr("src", "assets/img/".concat(actimg))
+  })
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
