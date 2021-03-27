@@ -355,21 +355,21 @@ h1, h2, h3, h4, h5, h6 {
   fill: white;
 }
 
-#K-mask-swoop {stroke-dasharray: 470px; stroke-dashoffset: -470px; animation: K-swoop-anim 1.0s ease-in 1.4s forwards;}
-#K-mask-finish {stroke-dasharray: 395px; stroke-dashoffset: -395px; animation: K-main-anim .8s ease-out 2.5s forwards;}
+#K-mask-swoop {stroke-dasharray: 470px; stroke-dashoffset: -470px; animation: K-swoop-anim 1.0s linear 1.4s forwards;}
+#K-mask-finish {stroke-dasharray: 395px; stroke-dashoffset: -395px; animation: K-main-anim .8s linear 2.5s forwards;}
 #H-mask-swoop {stroke-dasharray: 90px; stroke-dashoffset: -90px; animation: H-swoop-anim .4s linear 3.3s forwards;}
-#H-mask-main {stroke-dasharray: 210px; stroke-dashoffset: -210px; animation: H-main-anim .8s ease-in-out 3.7s forwards;}
+#H-mask-main {stroke-dasharray: 210px; stroke-dashoffset: -210px; animation: H-main-anim .8s linear 3.7s forwards;}
 #mask-A {stroke-dasharray: 122px; stroke-dashoffset: -122px; animation: A-anim .6s ease-out 4.5s forwards;}
 #mask-R {stroke-dasharray: 105px; stroke-dashoffset: -105px; animation: R-anim .4s linear 5.1s forwards;}
-#mask-E {stroke-dasharray: 96px; stroke-dashoffset: -96px; animation: E-anim .4s ease-in 5.5s forwards;}
-#mask-E2 {stroke-dasharray: 96px; stroke-dashoffset: -96px; animation: E2-anim .5s ease-in 5.9s forwards;}
-#mask-S {stroke-dasharray: 777px; stroke-dashoffset: -777px; animation: S-anim 1s ease-in 6.7s forwards;}
-#mask-M {stroke-dasharray: 205px; stroke-dashoffset: -205px; animation: M-anim .8s ease-in 7.6s forwards; }
-#I-mask {stroke-dasharray: 67px; stroke-dashoffset: -67px; animation: I-main-anim .4s ease-in 8.4s forwards;}
-#T-mask {stroke-dasharray: 230px; stroke-dashoffset: -230px; animation: T-main-anim .6s ease-in 8.8s forwards;}
-#mask-H2 {stroke-dasharray: 310px; stroke-dashoffset: -310px; animation: H2-anim .8s ease-in 9.4s forwards;}
-#T-line-mask {stroke-dasharray: 65px; stroke-dashoffset: -65px; animation: T-line-anim .4s ease-in 10.2s forwards;}
-#I-dot-mask {stroke-dasharray: 20px; stroke-dashoffset: -20px; animation: I-dot-anim .3s ease-in 10.7s forwards;}
+#mask-E {stroke-dasharray: 96px; stroke-dashoffset: -96px; animation: E-anim .4s linear 5.5s forwards;}
+#mask-E2 {stroke-dasharray: 96px; stroke-dashoffset: -96px; animation: E2-anim .5s linear 5.9s forwards;}
+#mask-S {stroke-dasharray: 777px; stroke-dashoffset: -777px; animation: S-anim 1s linear 6.7s forwards;}
+#mask-M {stroke-dasharray: 205px; stroke-dashoffset: -205px; animation: M-anim .8s linear 7.6s forwards; }
+#I-mask {stroke-dasharray: 67px; stroke-dashoffset: -67px; animation: I-main-anim .4s linear 8.4s forwards;}
+#T-mask {stroke-dasharray: 230px; stroke-dashoffset: -230px; animation: T-main-anim .6s linear 8.8s forwards;}
+#mask-H2 {stroke-dasharray: 310px; stroke-dashoffset: -310px; animation: H2-anim .8s linear 9.4s forwards;}
+#T-line-mask {stroke-dasharray: 65px; stroke-dashoffset: -65px; animation: T-line-anim .4s linear 10.2s forwards;}
+#I-dot-mask {stroke-dasharray: 20px; stroke-dashoffset: -20px; animation: I-dot-anim .3s linear 10.7s forwards;}
 
 
 
