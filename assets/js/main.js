@@ -17,7 +17,7 @@
 
   // Random image
   $(document).ready(function(){
-    var imgarray = ["File_003.jpeg","File_004.jpeg","File_005.jpeg","File_006.jpeg"]
+    var imgarray = ["File_003.jpeg","File_004.jpeg","File_005.jpeg","File_006.jpeg","headshot.png"]
     var randsel = (Math.floor(Math.random() * imgarray.length))
     var actimg = imgarray[randsel]
     $("#randimg").attr("src", "assets/img/".concat(actimg))
